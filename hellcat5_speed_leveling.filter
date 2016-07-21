@@ -122,7 +122,7 @@ Show
 	SetBackgroundColor 120 120 120
 	PlayAlertSound 5 150
 
-# 6 sockets - dark grey background orange text
+# 6 sockets - dark grey background tan text
 Show
 	Sockets 6
 	SetFontSize 45
@@ -248,4 +248,3 @@ Show
 #lets hide everything else that does not qualify for one of the above rules
 Hide
     Rarity < Unique
-	ItemLevel < 82
