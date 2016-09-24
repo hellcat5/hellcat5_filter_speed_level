@@ -1,6 +1,6 @@
 #Created By: hellcat5
 #creation date: 20160415
-#update date: 20160922
+#update date: 20160923
 #purpose: custom filter for path of exile - speed leveling for map tier 8+
 #include: reference.txt
 #
@@ -37,6 +37,18 @@ Show
 # uniques t5 - text enlarged (40) darker font color
 Hide
 	Rarity Unique
+
+#************************
+# jewels
+#************************
+#jewels  - purple
+Show
+	Class Jewel
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 155 0 235
+	SetBackgroundColor 155 0 235
+	PlayAlertSound 9 300
 
 #************************
 # gems
@@ -388,6 +400,19 @@ Show
 Show
 	Class Quest
 	SetFontSize 45
+
+#************************
+# chromatic vendor recipe
+#************************	
+# rgb vendor recipe
+Show
+	SocketGroup RGB
+	Height < 4
+	Rarity < Rare
+	SetFontSize 45
+	SetTextColor 0 0 175
+	SetBorderColor 200 0 0
+	SetBackgroundColor 0 150 0
 
 #************************
 # no more face
