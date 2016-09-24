@@ -246,7 +246,7 @@ Show
     SetBorderColor 47 91 244
 	SetBackgroundColor 47 91 244
 
-# regal recipe - rings amulets, belts, and quivers 
+# regal recipe - rings amulets, belts, and quivers
 Show
 	Class Ring Amulet Belt Quiver
     Rarity Rare
@@ -255,6 +255,17 @@ Show
 	SetTextColor 255 255 0
     SetBorderColor 47 91 244
 	SetBackgroundColor 47 91 244
+
+# chaos recipe - rings amulets belts
+Show
+	Class Ring Amulet Belt Quiver
+    Rarity Rare
+	ItemLevel >= 60
+    ItemLevel <= 74	
+	SetFontSize 45
+	SetTextColor 255 255 0
+	SetBorderColor 223 150 13
+    SetBackgroundColor 223 150 13
 
 # chisel vendor recipe quality (one of the maces below quality 20 + map = chisel) - pee yellow background black text
 Show
@@ -400,6 +411,20 @@ Show
 Show
 	Class Quest
 	SetFontSize 45
+
+#************************
+# chancing, crafting, alching, build gear
+#************************
+
+##### override section - add your basetypes here #####
+# crafting / alching basetypes + build gear - bubblegum background black text
+Show
+	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Two-Toned Boots" "Bone Helmet" "Crystal Belt" "Vanguard Belt" "Marble Amulet" "Blue Pearl Amulet" "Opal Ring" "Steel Ring"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 255 180 220
+	SetBackgroundColor 255 180 220
+##### end override section #####
 
 #************************
 # chromatic vendor recipe
