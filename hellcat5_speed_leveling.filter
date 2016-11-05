@@ -34,6 +34,13 @@ Show
 	SetFontSize 45
 	PlayAlertSound 2 150
 
+# uniques t3 - 10 chaos and up - text enlarged (40) sound 3
+Show
+	BaseType "Simple Robe"
+	Rarity Unique
+	SetFontSize 40
+	PlayAlertSound 3 300
+
 # uniques t5 - text enlarged (40) darker font color
 Hide
 	Rarity Unique
